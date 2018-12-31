@@ -14,17 +14,17 @@ The latest versions of Raspbian and Debian include ffmpeg as a package. To insta
 `sudo apt-get install ffmpeg`
 
 ### Installing fswebcam
-Please see [this webpage] (https://www.raspberrypi.org/documentation/usage/webcams/)
+Please see [this webpage](https://www.raspberrypi.org/documentation/usage/webcams/)
 
 ### Installing raspistill
-raspistill should be included with the camera software. See [this page for more information] (https://www.raspberrypi.org/documentation/raspbian/applications/camera.md)
+raspistill should be included with the camera software. See [this page for more information](https://www.raspberrypi.org/documentation/raspbian/applications/camera.md)
 
 ### Installing drpbox-uploader
 If you would like the scripts to automatically upload images and/or videos to DropBox you will need the `dropbox-uploader.sh` script. Download the script with this command
 `curl "https://raw.githubusercontent.com/andreafabrizi/Dropbox-Uploader/master/dropbox_uploader.sh" -o dropbox_uploader.sh`
 And then 
 `chmod +x dropbox_uploader.sh`
-Run the script once to setup the access key. For more information [see this web page] (https://github.com/andreafabrizi/Dropbox-Uploader)
+Run the script once to setup the access key. For more information [see this web page](https://github.com/andreafabrizi/Dropbox-Uploader)
 NOTE: The `dropbox_uploader.sh` needs to be in the same directory as the other scripts in this package. It will not work if you put it in a central place and add it to the path. Sorry.
 
 ## Installation
