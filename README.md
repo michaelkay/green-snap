@@ -1,6 +1,8 @@
 # Overview
 greensnap is a set of shell scripts that create timelapse and security camera videos. Setup is easy but does require some knowledge of the Linux command prompt.
 
+For a full description see this post http://raspberrypimaker.com/simple-security-camera/
+
 ## Prerequesits
 These scripts run on most Linux systems including the RaspberryPi. The Raspi camera is supported.
 - Some type camera. Webcams, IP cameras and the RaspberryPi camera is supported
